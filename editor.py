@@ -333,3 +333,10 @@ def test():
 if __name__ == "__main__":
     app = Application("draft.py")
     app.mainloop()
+    
+"""
+TO-DO:
+Pass the path to the file in script argument, so the user doesn't need to edit the file
+Possibility to open another file, that would open maybe another window (Application) in another thread
+Separate in multiple files (config, syntax-rules, Application class, main function with args parsing...)
+"""
